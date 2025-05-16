@@ -267,9 +267,7 @@ if uploaded_file:
                 st.session_state.vectorstore = None
                 st.session_state.uploaded_file_name = None
 elif st.session_state.get("uploaded_file_name"):
-    st.sidebar.info(f"Using previously uploaded document: 
-`{st.session_state.uploaded_file_name}`
-")
+    st.sidebar.info(f"Using previously uploaded document: `{st.session_state.uploaded_file_name}`")
 
 # --- Main Area for Interaction and Evaluation ---
 if st.session_state.vectorstore and llm:
