@@ -1,5 +1,5 @@
 [huggingface]
-api_token = "YOUR_TOKEN_HERE"
+api_token = "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"
 
 [app_settings]
 debug = false
